@@ -1,0 +1,103 @@
+
+
+body {
+    font-family: Arial, Verdana;
+    background-color: #000000;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+h1{
+    text-align: center;
+    font-size: 42px;
+    padding: 15px;
+
+}
+
+h2{
+    font-size: 30px;
+    color: #0D0D0D;
+
+}
+
+p{
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+img{
+    width: 250px;
+    border: 10px dashed #FFFFFF;
+    display: block;
+    margin: auto;
+}
+
+div{
+    min-height: 125px;
+    padding: 20px;
+    border: 3px solid #FFFFFF;
+}
+
+.introduction{
+    margin-top: 15px;
+    line-height: 2;
+    border-radius: 15px;
+}
+
+.red{
+    background-color: #FF0000;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 5px solid #FFFFFF;
+}
+
+.blue{
+    background-color: #0000FF;
+    color: #C4C4C4;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
+
+}
+
+.blue h2{
+    color: #C4C4C4;
+}
+
+.yellow{
+    background-color: #FFFF00;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 5px solid #FFFFFF;
+}   
+
+.yellow p{
+    color: #707070
+}
+
+.green{
+    background-color: #008500;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
+}
+
+footer{
+    /* check out CSS Gradients for linear-gradient*/
+    background: linear-gradient(to right,#000000, #0000ff 25%, #0066ff 70%, #000000);
+    border: 5px solid #FFFFFF;
+    text-align: right;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
